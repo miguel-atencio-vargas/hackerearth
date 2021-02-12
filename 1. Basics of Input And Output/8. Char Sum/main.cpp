@@ -9,6 +9,7 @@ int main()
 	scanf("%s", S);
 	for (int i = 0; i < strlen(S); ++i)
 	{
+		//prinf("%c\n", S[i]);
 		//printf("%i\n", S[i]-96); // print weights
 		weight += S[i]-96;
 	}
